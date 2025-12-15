@@ -3,9 +3,9 @@ export{};
 let args = process.argv.slice(2);
 let grade = Number(args[0]);
 if (Number.isNaN(grade)){
-  console.log("Invalid input");  
+  console.log("Invalid Input");  
 }else if(grade < 0 || grade > 100){
-  console.log("Invalid input");
+  console.log("Invalid Input");
 } else {
   if (grade >= 80){
     console.log("Grade is A");
